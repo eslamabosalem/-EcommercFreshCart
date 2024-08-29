@@ -14,7 +14,7 @@ console.log(response?.data?.data);
 setBrandsProduct(response?.data?.data)
 
 })
-.then((erro)=>{
+.catch((erro)=>{
   console.log(erro);
   setBrandsProduct(erro.response.data.data)
 })

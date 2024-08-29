@@ -61,7 +61,8 @@ let createBrowser=createBrowserRouter ([
 
   return (
     <>
-    <QueryClientProvider client={query}><UserContextProvider>  
+    <QueryClientProvider client={query}>
+      <UserContextProvider>  
         <CounterContextProvider>
           <CartContextprovider>
        <ReactQueryDevtools initialIsOpen="false"/>

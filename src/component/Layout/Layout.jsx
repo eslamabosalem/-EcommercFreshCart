@@ -13,10 +13,10 @@ export default function Layout() {
     
     <Navbar></Navbar>
     
-    
+   <div className=" container w-80">
     
     <Outlet></Outlet>
-    
+    </div>
     <Footer/>
     
     

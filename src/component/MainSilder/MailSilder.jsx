@@ -29,7 +29,7 @@ export default function MailSilder() {
        
         <Slider {...settings} className='col-span-12 md:col-span-8'>
         <img  src={logo} alt="" className='w-full h-[400px]' />
-        <img  src={logo4} alt="" className='w-full h-[400px]' />
+        <img  src={logo4} alt="" className='w-full h-[400px] ' />
         <img  src={logo5} alt="" className='w-full h-[400px]' />
     </Slider>
           
